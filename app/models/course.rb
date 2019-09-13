@@ -1,3 +1,4 @@
 class Course < ApplicationRecord
-  validates_presence_of :grade, :name
+  validates_presence_of :name
+  has_many :course_students
 end
