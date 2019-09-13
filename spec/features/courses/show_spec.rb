@@ -1,13 +1,5 @@
 require 'rails_helper'
 
-# User Story 2, Course Show Page
-# As a user,
-# When I visit a course show page,
-# Then I see:
-# - the course's name
-# - each student in the course listed in order from highest grade to lowest grade
-# ```
-
 RSpec.describe 'Course Show Page', type: :feature do
   before :each do
     @student_1 = Student.create(name: "Student 1")

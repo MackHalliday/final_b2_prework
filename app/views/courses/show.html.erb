@@ -1,6 +1,6 @@
 <section id= "course-info-<%= @course.id %>">
   <p> Name: <%= @course.name %></p>
   <section id= "student-info-<%= @course.id %>">
-    <%= @course.students_by_grade %>
+    <p> Enrollment: <%= @course.students_by_grade_formatted %> </p>
   </section>
 </section>
